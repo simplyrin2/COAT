@@ -28,7 +28,7 @@
 - The *./calibration* folder contains the code for obtaining the calibration set and the calibration rotation matrix. 
 
 
-# Covariance calibration for R1 and R2
+# Covariance calibration for $R_1$ and $R_2$
 
 Go to *./calibration* folder
 
@@ -47,7 +47,7 @@ For example, to get the calibration data for Llama 2-7b, you can run the followi
 python get_r1_r2_train_data.py --model meta-llama/Llama-2-7b-hf --calib_dataset wikitext2 --nsamples 128 --seqlen 2048
 ```
 
-## Calibration of R1
+## Calibration of $R_1$
 Currently, we only support **LLaMa** models. You can simply run the `r1_calibrate.py` to calibrate R1. The most important arguments are:
 
 
@@ -62,7 +62,7 @@ For example, to calibrate R1 for Llama 2-7b, you can run the following command:
 python r1_calibrate.py --model meta-llama/Llama-2-7b-hf --bsz 64
 ```
 
-## Calibration of R2
+## Calibration of $R_2$
 You can simply run the `r2_calibrate.py` to calibrate R2. The most important arguments are:
 
 - `--model`: the model name (or path to the weights)
