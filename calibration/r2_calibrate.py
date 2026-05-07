@@ -113,8 +113,7 @@ def parser_gen():
     now = datetime.now()
     run_time = now.strftime("%Y-%m-%d_%H:%M:%S")
     setattr(args, 'run_target_time', run_time)
-    args.save_file_name += f'corr_max2.{args.optim}.{args.lr}.{args.mom}.{args.ep}.{args.bsz}.{args.accumulation_steps}'
-    args.save_file_name += '.cos' if args.cos_lr else ''
+    args.save_file_name += f'corrmax.{args.bsz}'
 
     data_path = os.path.join(
         default_path,

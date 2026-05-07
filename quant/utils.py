@@ -186,4 +186,3 @@ def load_model_in_parts(model, folder_path):
             del part 
             pbar.update(1) 
 
-    logging.info("模型加载完成。")

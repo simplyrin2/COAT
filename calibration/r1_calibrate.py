@@ -91,8 +91,7 @@ def parser_gen():
     run_time = now.strftime("%Y-%m-%d_%H:%M:%S")
     setattr(args, 'run_time', run_time)
 
-    save_folder = f'corrmax2.{args.optim}.{args.lr}.{args.mom}.{args.ep}.{args.bsz}.{args.train_subset_size}.{args.accumulation_steps}'
-    save_folder = f'{save_folder}.cos' if args.cos_lr else save_folder
+    save_folder = f'corrmax.{args.bsz}'
     setattr(args, 'save_folder', save_folder)
 
     data_path = os.path.join(
