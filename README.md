@@ -1,4 +1,4 @@
-# Code for COAT: Maximizing Cross-Dimensional Correlation for LLM Quantization
+# Code for COAT
 
 ## 1. Requirements:
 - python 3.10, pytorch >= 2.0
