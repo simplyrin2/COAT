@@ -1,4 +1,4 @@
-# Code for COAT
+# Code for CorrQuant
 
 ## 1. Requirements:
 - python 3.10, pytorch >= 2.0
@@ -76,7 +76,7 @@ For example, to calibrate R1 for Llama 2-7b, you can run the following command:
 python r2_calibrate_qr.py --model meta-llama/Llama-2-7b-hf --bsz 64
 ```
 
-# Fake Quantization in COAT
+# Fake Quantization in CorrQuant
 
 Under *./quant* directory, we provide the torch script for the experiments aka evaluation in CorrQuant. 
 
