@@ -1,4 +1,4 @@
-# Code for CorrQuant
+# Code for COAT
 
 ## 1. Requirements:
 - python 3.10, pytorch >= 2.0
