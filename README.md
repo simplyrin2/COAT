@@ -1,4 +1,4 @@
-# COrrelation-Aware Orthogonal Transform (COAT)
+# COrrelation-Aware Orthogonal Transform (COAT) for LLM Quantization
 
 ## 1. Requirements:
 - python 3.10, pytorch >= 2.0
