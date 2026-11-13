@@ -4,12 +4,7 @@ This repository is the official implementation of the COAT paper available on [O
 
 ## Citation
 
-If you use this repository, please cite:
-
-- [COAT (OpenReview)](https://openreview.net/forum?id=6JGbm48VoG&referrer=%5Bthe%20profile%20of%20Indranil%20Patra%5D%28%2Fprofile%3Fid%3D~Indranil_Patra1%29)
-- [DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization](https://arxiv.org/abs/2511.04063)
-- [QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs](https://arxiv.org/abs/2404.00456)
-- [SpinQuant: LLM Quantization with Learned Rotations](https://arxiv.org/abs/2405.16406)
+If you use this repository, please cite [COAT (OpenReview)](https://openreview.net/forum?id=6JGbm48VoG&referrer=%5Bthe%20profile%20of%20Indranil%20Patra%5D%28%2Fprofile%3Fid%3D~Indranil_Patra1%29). Related work includes [DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization](https://arxiv.org/abs/2511.04063), [QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs](https://arxiv.org/abs/2404.00456), and [SpinQuant: LLM Quantization with Learned Rotations](https://arxiv.org/abs/2405.16406).
 
 ## 1. Requirements:
 - python 3.10, pytorch >= 2.0
